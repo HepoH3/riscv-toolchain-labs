@@ -93,7 +93,7 @@ make bin
 riscv64-unknown-linux-gnu-objdump -d fact | grep fact
 ```
 
-You will see that fact now has been assigned an address and `main` nows how to call it:
+You will see that fact now has been assigned an address and `main` knows how to call it:
 
 ```shell
 fact:     file format elf64-littleriscv
